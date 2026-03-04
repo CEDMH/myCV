@@ -3,48 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon CV</title>
+  <title>CV — [LUCIEN MOREAU]</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>LUCIEN MOREAU</h1>
-    <p>Étudiant en BUT MMI - Angoulême 🎓</p>
-    <ul>
-      <li><strong>Date de naissance :</strong> 10/03/1977</li>
-      <li><strong>Adresse :</strong> Avenue de Varsovie, 16000, Angoulême</li>
-      <li><strong>Email :</strong> moreau.lucien@proton.me</li>
-      <li><strong>Téléphone :</strong> 06 23 30 58 48</li>
-    </ul>
-  </header>
-  <main>
-    <section>
-      <h2>Formation 📚</h2>
+  <div class="cv-wrapper">
+
+    <!-- ─── Colonne gauche ─── -->
+    <aside class="sidebar">
+      <h1>[LUCIEN]<br>[MOREAU]</h1>
+      <p class="subtitle">Étudiant BUT MMI · Angoulême</p>
+
+      <h2>Contact</h2>
       <ul>
-        <li><strong>BUT MMI</strong> — IUT d'Angoulême | 2025 – Présent</li>
-        <li><strong>Baccalauréat Général</strong> — Lycée Joseph-Desfontaines | 2025</li>
+        <li>[lucien.moreau@etu.univ-poitiers.fr]</li>
+        <li>[06 23 30 58 48]</li>
+        <li>[Angoulême, Charente]</li>
       </ul>
-    </section>
-    <section>
-      <h2>Expériences professionnelles 💼</h2>
+
+      <h2>Compétences</h2>
       <ul>
-        <li>
-          <strong>Commandant des forces non spéciales</strong> – KAGÉBÉBÉ<br>
-          Janvier 2026 – Mars 2029
-          <p>Description rapide des missions.</p>
-        </li>
+        <li>HTML5 / CSS3</li>
+        <li>JavaScript</li>
+        <li>Figma</li>
+        <li>Photoshop</li>
+        <li>Git & GitHub</li>
       </ul>
-    </section>
-     <section>
-      <h2>Compétences 🛠️</h2>
+
+      <h2>Langues</h2>
       <ul>
-        <li><strong>Design :</strong> Photoshop, Illustrator, Figma</li>
-        <li><strong>Développement :</strong> HTML5, CSS3, JavaScript</li>
-        <li><strong>Communication :</strong> Stratégie digitale, Rédaction</li>
+        <li>Français — Natif</li>
+        <li>Anglais — C1</li>
       </ul>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2026 – MOREAU – Créé dans le cadre du BUT MMI Angoulême</p>
-  </footer>
+    </aside>
+
+    <!-- ─── Colonne droite ─── -->
+    <main class="main">
+
+      <h2>Formation</h2>
+      <div class="entry">
+        <strong>BUT Métiers du Multimédia et de l'Internet (MMI)</strong>
+        <span>IUT d'Angoulême · 2025 – Présent</span>
+        <p>Parcours Web & Design. Conception d'interfaces, développement front-end, stratégie digitale.</p>
+      </div>
+      <div class="entry">
+        <strong>Baccalauréat [Série/Spécialité]</strong>
+        <span>Lycée [Nom du Lycée] · [Année]</span>
+      </div>
+
+      <h2>Expériences</h2>
+      <div class="entry">
+        <strong>[Intitulé du poste]</strong>
+        <span>[Entreprise/Organisation] · [Mois AAAA] – [Mois AAAA]</span>
+        <p>Description courte des missions et des outils utilisés.</p>
+      </div>
+
+      <h2>Projets</h2>
+      <div class="entry">
+        <strong>[Nom du projet]</strong>
+        <span>[Contexte / Année]</span>
+        <p>Description brève du projet et de votre contribution.</p>
+      </div>
+
+      <h2>Outils maîtrisés</h2>
+      <div class="skills-grid">
+        <span class="tag">VSC</span>
+        <span class="tag">Git</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Figma</span>
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Illustrator</span>
+      </div>
+
+    </main>
+  </div>
 </body>
 </html>
