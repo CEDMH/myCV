@@ -47,7 +47,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .12em;
   color: var(--primary);
-  background: rgba(255,255,255,.12);
+  background: rgba(255, 255, 255, 0.041);
   padding: .4rem .8rem;
   border-radius: 4px;
   margin: 1.4rem 0 .8rem;
